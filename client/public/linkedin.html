@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Learning Certificate Generator</title>
+    <link rel="stylesheet" href="css/linkedin.css">
+    <link rel="icon" type="image/x-icon" href="img/linkedin.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <div class="first-name">
+                <label for="fname"> First Name: <br>
+                    <input type="text" name="fname" id="fname">
+                </label>
+            </div>
+            <div class="last-name">
+                <label for="lname"> Last Name: <br>
+                    <input type="text" name="lname" id="lname">
+                </label>
+            </div>
+            <div class="date">
+                <label for="date"> Date of Completion: <br>
+                    <input type="text" name="date" id="date" placeholder="Example: Aug. 18, 2024">
+                </label>
+            </div>
+            <div class="length">
+                <label for="length"> Length of Course: <br>
+                    <input type="text" name="length" id="length" placeholder="Example: 1 hour 30 minutes">
+                </label>
+            </div>
+            <div class="course">
+                <label for="course"> Course Name: <br>
+                    <input type="text" name="course" id="course">
+                </label>
+            </div>
+            <div class="btn">
+                <button id="Generate" type="submit">Generate</button>
+            </div>
+        </form>
+
+        <div id="certificate">
+          
+        </div>
+        <button id="download">Download PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="js/linkedin.js"></script>
+
+
+</body>
+
+</html>
